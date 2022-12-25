@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&family=Ubuntu:wght@300&display=swap");
+body {
+  font-family: "Montserrat";
+}
+
+/* TITLE SECTION */
+
+#title {
+  background-color: #ff4c68;
+}
+
+.main-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 9%;
+}
+
+/* Navbar */
+
+.brand-text {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  font-family: "Montserrat", sans-serif;
+  padding: 0 20px;
+  font-size: large;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Image */
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.features-tab {
+  text-align: center;
+  font-family: "Montserrat";
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.feature-heading {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.feature-icons {
+  color: #ef8172;
+  padding-bottom: 15px;
+}
+
+.feature-description {
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+.feature-icons:hover {
+  cursor: pointer;
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  color: #fff;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.dog-name {
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing Cards */
+.card {
+  text-align: center;
+}
+
+.Pricing {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.per-month {
+  color: #8f8f8f;
+  font-weight: 500;
+}
+
+.non-premium-cards {
+  margin-bottom: 5%;
+}
+
+.non-premium-btns {
+  margin-top: 21%;
+}
+
+.cards-row {
+  padding-left: 18%;
+  padding-right: 18%;
+  margin-bottom: 15%;
+}
+
+.pricing-heading {
+  padding-top: 3%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.heading-h2 {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.heading-p {
+  color: gray;
+}
+
+.dog-name-h3 {
+  font-weight: 900;
+}
+
+
+/* Footers */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-text {
+  padding-top: 3%;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.bottom-download-btn {
+  margin-top: 4%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#footer {
+  text-align: center;
+  color: gray;
+  padding-top: 10%;
+}
+
+.footer-icons {
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 2%;
+  color: black;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
